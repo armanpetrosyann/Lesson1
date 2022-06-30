@@ -147,7 +147,11 @@ namespace Lesson1
 
             Console.WriteLine("Click on the <Enter> key on your keyboard to close console");
             Console.ReadKey();
-            
+
+            // DateTime 
+
+            DateTime dateTime = DateTime.Now;
+            Console.WriteLine(dateTime);
         }
     }
 }
