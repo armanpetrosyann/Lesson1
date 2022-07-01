@@ -152,6 +152,77 @@ namespace Lesson1
 
             DateTime dateTime = DateTime.Now;
             Console.WriteLine(dateTime);
+
+            // CW , CRL 
+
+            // Ask to user for firstname , secondname , userage
+
+            Console.Write("Enter your first name: ");
+            string userFirstName = Convert.ToString(Console.ReadLine());
+
+            Console.Write("Enter your second name: ");
+            string userSecondName = Convert.ToString(Console.ReadLine());
+
+            Console.Write("Enter your age: ");
+            int userAge = Convert.ToInt32(Console.ReadLine());
+
+            string fullAnswer = userFirstName + " " + userSecondName + " " + userAge;
+
+            Console.WriteLine($"Your first name is: {userFirstName}");
+            Console.WriteLine($"Your first name is: {userSecondName}");
+            Console.WriteLine($"Your first name is: {userAge}");
+            Console.WriteLine(fullAnswer);
+
+            // Calculator
+
+            // Addition
+
+            Console.WriteLine("Addition numbers");
+
+            Console.Write("Enter 1 number: ");
+            int numberOne = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter 2 number: ");
+            int numberTwo = Convert.ToInt32(Console.ReadLine());
+
+            int totalResult = numberOne + numberTwo;
+            Console.WriteLine($"Result of addition is: {totalResult}");
+
+            // Subtraction
+
+            Console.WriteLine("Subtraction numbers");
+
+            Console.Write("Enter 1 number: ");
+            int numOne = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter 2 number: ");
+            int numTwo = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Result of subtraction is: {numOne - numTwo}");
+
+            // Multiply
+
+            Console.WriteLine("Multiply numbers");
+
+            Console.Write("Enter 1 number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter 2 number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Result of multiplying is: {num1 * num2}");
+
+            // Divide
+
+            Console.WriteLine("Divide numbers");
+
+            Console.Write("Enter 1 number: ");
+            int nOne = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter 2 number: ");
+            int nTwo = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Result of dividing is: {nOne / nTwo}");
         }
     }
 }
